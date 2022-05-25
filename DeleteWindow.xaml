@@ -1,0 +1,17 @@
+﻿<Window x:Class="Nhom6_BTL.DeleteWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Nhom6_BTL"
+        mc:Ignorable="d"
+        Title="DeleteWindow" Height="250" Width="450">
+    <Grid>
+        <Label x:Name="lb1" Content="Điều" FontStyle="Italic" HorizontalAlignment="Left" Height="22" Margin="62,26,0,0" VerticalAlignment="Top" Width="48"/>
+        <Label x:Name="lb2" Content="Khoản" FontStyle="Italic" HorizontalAlignment="Left" Height="22" Margin="62,66,0,0" VerticalAlignment="Top" Width="48"/>
+        <TextBox x:Name="dieu_txt" HorizontalAlignment="Left" Height="26" Margin="115,26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" Background="#FF77E87E"/>
+        <TextBox x:Name="khoan_txt" HorizontalAlignment="Left" Height="26" Margin="115,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="123" Background="#FF77E87E"/>
+        <Button x:Name="delete_btn" Content="Xóa" HorizontalAlignment="Left" Height="25" Margin="331,27,0,0" VerticalAlignment="Top" Width="91" Click="delete_btn_Click"/>
+        
+    </Grid>
+</Window>
